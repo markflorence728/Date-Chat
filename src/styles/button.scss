@@ -1,0 +1,50 @@
+button {
+  font-weight: lighter;
+  border-radius: 4px;
+}
+
+button:active, button:focus {
+  outline: none !important;
+}
+
+button:active {
+  opacity: .9;
+}
+
+button:disabled {
+  opacity: .5;
+}
+
+.contained-button {
+  background: #ff4b4b;
+  color: #ffffff;
+  border: 1px solid #FF4B4B;
+}
+
+.outline-button {
+  background: transparent;
+  color: #FF4B4B;
+  border: 1px solid #FF4B4B;
+}
+
+.submit-button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: .4rem;
+  font-size: 1.2rem;
+}
+
+.large-button {
+  padding: .7rem 1rem;
+  font-size: 1.2rem;
+}
+
+.medium-button {
+  padding: .6rem .8rem;
+  font-size: 1.0rem;
+}
+
+.small-button {
+  padding: .4rem .6rem;
+  font-size: .8rem;
+}

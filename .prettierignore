@@ -1,0 +1,26 @@
+# Exclude everything by default
+# /**/*
+
+# Include all folders
+# !/**/*/
+
+# !/src/*.css
+# !/src/*.js
+# !/src/*.json
+# !/src/*.jsx
+# !/src/*.less
+# !/src/*.md
+# !/src/*.mdx
+# !/src/*.ts
+# !/src/*.tsx
+# !/src/*.yml
+Dockerfile
+node_modules/
+dist/
+coverage/
+.vscode/
+.circleci/
+.*
+src/db/migration/
+**/*.csv
+scripts/

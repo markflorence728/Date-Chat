@@ -1,0 +1,52 @@
+form {
+  //font-weight: lighter;
+
+  .input-wrapper {
+    margin-bottom: 1rem;
+
+    .label {
+      margin-bottom: .1rem;
+      font-size: 1rem;
+      text-align: left;
+      color: #646464;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: .5rem;
+      font-size: 1rem;
+      border: 1px solid #aaaaaa;
+      background-color: transparent;
+      color: white;
+      border-radius: 4px;
+    }
+
+    input:-internal-autofill-selected {
+      -webkit-appearance: menulist-button;
+      background-color: transparent !important;
+      background-image: none !important;
+      color: -internal-light-dark-color(black, transparent) !important;
+    }
+
+    select {
+      padding: .5rem .3rem;
+    }
+
+    option {
+
+    }
+
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border: 1px solid #424242;
+    }
+
+    input:disabled, select:disabled {
+
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}

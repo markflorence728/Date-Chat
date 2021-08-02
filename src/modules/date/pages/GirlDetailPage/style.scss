@@ -1,0 +1,32 @@
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.indicators {
+  margin-top: 0 !important;
+}
+
+.indicator {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  margin: -50px 5px 0;
+  border: 1px #efefef solid;
+  border-radius: 100%;
+  z-index: 999;
+}
+
+.indicator.active {
+  background: #efefef;
+}
